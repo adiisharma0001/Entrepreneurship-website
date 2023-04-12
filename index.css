@@ -1,0 +1,72 @@
+/* Reset some default styles */
+body, form, input, textarea, button {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Set some global styles */
+body {
+  background-color: #f8f8f8;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+/* Style header */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style main section */
+main {
+  padding: 20px;
+}
+
+#login-section {
+  margin-bottom: 40px;
+}
+
+#firebaseui-auth-container {
+  margin-top: 20px;
+}
+
+#contact-section form {
+  margin-top: 20px;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  display: block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style footer */
+footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

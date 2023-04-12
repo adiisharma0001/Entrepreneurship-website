@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>National Entrepreneurship Website</title>
+  <!-- Add Bootstrap CSS link here -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <!-- Add header content here -->
+  </header>
+  <main>
+    <section id="login-section">
+      <h2>Login</h2>
+      <div id="firebaseui-auth-container"></div>
+    </section>
+    <section id="dashboard-section" class="d-none">
+      <h2>Dashboard</h2>
+      <p id="student-name"></p>
+      <div id="score-panel"></div>
+    </section>
+    <section id="contact-section" class="d-none">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <textarea id="message" placeholder="Message"></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <!-- Add footer content here -->
+  </footer>
+
+  <!-- Add Firebase, Firebase UI, and app.js script links here -->
+  <script src="index.js"></script> 
+</body>
+</html>
